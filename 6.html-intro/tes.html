@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style2.css" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light d-sm-block d-md-none">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"
+            ><img src="./assets/images/tickitz-logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+              <form class="d-flex form-search mt-5 mb-4">
+                <button type="submit">
+                  <i class="fa fa-search px-3 py-3"></i>
+                </button>
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Search..."
+                  aria-label="Search"
+                />
+              </form>
+              <hr />
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Location
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+              <hr />
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Movies</a
+                >
+              </li>
+              <hr />
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cinemas</a>
+              </li>
+              <hr />
+              <li class="nav-item">
+                <a class="nav-link" href="#">Buy Ticket</a>
+              </li>
+              <hr />
+
+              <li class="nav-item mt-5">
+                <a class="nav-link" href="#"
+                  >&copy; 2020 Tickitz • All Rights Reserved.</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg navbar-light d-none d-md-block">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="./assets/images/tickitz-logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Movies</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cinemas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Buy Ticket</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Location
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <form class="search-box">
+                  <input
+                    class="search-txt"
+                    type="text"
+                    name=""
+                    placeholder="Type to search"
+                  />
+                  <button class="search-btn" type="submit">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </form>
+              </li>
+              <li class="nav-item d-none d-md-block">
+                <a class="nav-link sign-up-button py-2 px-4" href="sign_up.html"
+                  >Sign Up</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <header class="container hero">
+      <div class="row">
+        <div class="col-md-6 d-flex align-items-center">
+          <div class="hero-title">
+            <p>Nearest Cinema, Newest Movie.</p>
+            <h1>Find out now!</h1>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center">
+          <div class="hero-image">
+            <img src="./assets/images/img-hero1.png" alt="" />
+            <img src="./assets/images/img-hero2.png" class="mb-4" alt="" />
+            <img src="./assets/images/img-hero3.png" class="mb-5" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="now-showing">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2>Now Showing</h2>
+            </div>
+            <div class="col d-flex justify-content-end">
+              <a href="#">view all</a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="movies">
+            <div class="card-movies">
+              <img src="./assets/images/now-showing1.png" alt="" />
+              <div class="title-movies">
+                <h1>Spider-Man: Homecoming</h1>
+                <p>Acion, Adventure, Sci-FI</p>
+              </div>
+              <div class="button-movies">
+                <a href="details.html" class="btn-details">Details</a>
+                <br />
+                <br />
+                <a href="order.html" class="btn-book-now">Book-now</a>
+              </div>
+            </div>
+            <div class="card-movies">
+              <img src="./assets/images/now-showing2.png" alt="" />
+              <div class="title-movies">
+                <h1>Spider-Man: Homecoming</h1>
+                <p>Acion, Adventure, Sci-FI</p>
+              </div>
+              <div class="button-movies">
+                <a href="details.html" class="btn-details">Details</a>
+                <br />
+                <br />
+                <a href="order.html" class="btn-book-now">Book-now</a>
+              </div>
+            </div>
+            <div class="card-movies">
+              <img src="./assets/images/now-showing3.png" alt="" />
+              <div class="title-movies">
+                <h1>Spider-Man: Homecoming</h1>
+                <p>Acion, Adventure, Sci-FI</p>
+              </div>
+              <div class="button-movies">
+                <a href="details.html" class="btn-details">Details</a>
+                <br />
+                <br />
+                <a href="order.html" class="btn-book-now">Book-now</a>
+              </div>
+            </div>
+            <div class="card-movies">
+              <img src="./assets/images/now-showing1.png" alt="" />
+              <div class="title-movies">
+                <h1>Spider-Man: Homecoming</h1>
+                <p>Acion, Adventure, Sci-FI</p>
+              </div>
+              <div class="button-movies">
+                <a href="details.html" class="btn-details">Details</a>
+                <br />
+                <br />
+                <a href="order.html" class="btn-book-now">Book-now</a>
+              </div>
+            </div>
+            <div class="card-movies">
+              <img src="./assets/images/now-showing2.png" alt="" />
+              <div class="title-movies">
+                <h1>Spider-Man: Homecoming</h1>
+                <p>Acion, Adventure, Sci-FI</p>
+              </div>
+              <div class="button-movies">
+                <a href="details.html" class="btn-details">Details</a>
+                <br />
+                <br />
+                <a href="order.html" class="btn-book-now">Book-now</a>
+              </div>
+            </div>
+            <div class="card-movies">
+              <img src="./assets/images/now-showing3.png" alt="" />
+              <div class="title-movies">
+                <h1>Spider-Man: Homecoming</h1>
+                <p>Acion, Adventure, Sci-FI</p>
+              </div>
+              <div class="button-movies">
+                <a href="details.html" class="btn-details">Details</a>
+                <br />
+                <br />
+                <a href="order.html" class="btn-book-now">Book-now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="upcoming-movies">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2>Upcoming Movies</h2>
+            </div>
+            <div class="col d-flex justify-content-end">
+              <a href="#">view all</a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <form class="month-movies">
+            <label
+              ><input type="radio" name="month" value="september" />
+              <div class="month">September</div></label
+            >
+            <label
+              ><input type="radio" name="month" value="october" />
+              <div class="month">October</div></label
+            >
+            <label
+              ><input type="radio" name="month" value="november" />
+              <div class="month">November</div></label
+            >
+            <label
+              ><input type="radio" name="month" value="december" />
+              <div class="month">December</div></label
+            >
+            <label
+              ><input type="radio" name="month" value="january" />
+              <div class="month">January</div></label
+            >
+            <label
+              ><input type="radio" name="month" value="februari" />
+              <div class="month">Februari</div></label
+            >
+            <label
+              ><input type="radio" name="month" value="march" />
+              <div class="month">March</div></label
+            >
+            <label
+              ><input type="radio" name="month" value="april" />
+              <div class="month">April</div></label
+            >
+            <label
+              ><input type="radio" name="month" value="may" />
+              <div class="month">May</div></label
+            >
+            <label
+              ><input type="radio" name="month" value="june" />
+              <div class="month">June</div></label
+            >
+            <label
+              ><input type="radio" name="month" value="july" />
+              <div class="month">July</div></label
+            >
+          </form>
+          <div class="movies-upcoming">
+            <div class="card-movies-upcoming">
+              <img src="./assets/images/up-coming1.png" alt="" />
+              <h1>Black Widow</h1>
+              <p>Acion, Adventure, Sci-FI</p>
+              <a href="details.html" class="btn-details">Details</a>
+            </div>
+            <div class="card-movies-upcoming">
+              <img src="./assets/images/up-coming2.png" alt="" />
+              <h1>The Witches</h1>
+              <p>Adventure, Comedy, Family</p>
+              <a href="details.html" class="btn-details">Details</a>
+            </div>
+            <div class="card-movies-upcoming">
+              <img src="./assets/images/up-coming3.png" alt="" />
+              <h1>Tenet</h1>
+              <p>Acion, Sci-FI</p>
+              <a href="details.html" class="btn-details">Details</a>
+            </div>
+            <div class="card-movies-upcoming">
+              <img src="./assets/images/up-coming1.png" alt="" />
+              <h1>Black Widow</h1>
+              <p>Acion, Adventure, Sci-FI</p>
+              <a href="details.html" class="btn-details">Details</a>
+            </div>
+            <div class="card-movies-upcoming">
+              <img src="./assets/images/up-coming2.png" alt="" />
+              <h1>The Witches</h1>
+              <p>Adventure, Comedy, Family</p>
+              <a href="details.html" class="btn-details">Details</a>
+            </div>
+            <div class="card-movies-upcoming">
+              <img src="./assets/images/up-coming3.png" alt="" />
+              <h1>Tenet</h1>
+              <p>Acion, Sci-FI</p>
+              <a href="details.html" class="btn-details">Details</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container join-member">
+        <h3>Be the vanguard of the</h3>
+        <h1>Moviegoers</h1>
+        <form class="form-join mt-5 mb-5">
+          <div class="form-outline">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Type your email"
+            />
+          </div>
+          <div class="form-outline">
+            <button type="submit" class="btn btn-join-now">Join Now</button>
+          </div>
+        </form>
+        <p class="text-center">
+          By joining you as a Tickitz member, <br />
+          we will always send you the latest updates via email
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <img src="./assets/images/tickitz-logo.png" alt="" />
+            <p>
+              Stop waiting in line. Buy tickets <br />
+              conveniently, watch movies quietly
+            </p>
+          </div>
+          <div class="col-12 col-lg-2">
+            <h5>Explore</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Cinemas</a></li>
+              <li><a href="#">Movies List</a></li>
+              <li><a href="#">My Ticket</a></li>
+              <li><a href="#">Notification</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h5>Our Sponsor</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"
+                  ><img class="sponsor" src="./assets/images/ebv_id.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    class="sponsor"
+                    src="./assets/images/CineOne21.png"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img class="sponsor" src="./assets/images/hiflix.png" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h5>Follow us</h5>
+            <ul class="list-unstyled d-none d-md-block">
+              <li>
+                <a href="#"
+                  ><img
+                    src="./assets/icon/eva_facebook-outline.png"
+                    alt=""
+                  />Tickitz Cinema id</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="./assets/icon/bx_bxl-instagram.png"
+                    alt=""
+                  />tickitz.id</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="./assets/icon/eva_twitter-outline.png"
+                    alt=""
+                  />tickitz.id</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/icon/feather_youtube.png" alt="" />Tickitz
+                  Cinema id</a
+                >
+              </li>
+            </ul>
+            <ul class="list-unstyled d-sm-block d-md-none">
+              <li>
+                <a href="#"
+                  ><img src="./assets/icon/eva_facebook-outline.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/icon/bx_bxl-instagram.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/icon/eva_twitter-outline.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/icon/feather_youtube.png" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center pt-4">
+          <div class="col-auto copyright">
+            &copy; 2020 Tickitz • All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
