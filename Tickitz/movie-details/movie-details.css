@@ -1,0 +1,9 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+#button{
+    background-color: #5F2EEA;
+    border-color: #5F2EEA;
+    border-radius: 10px;
+}

@@ -1,0 +1,129 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+#left{
+    background-image: linear-gradient(rgba(89, 7, 221, 0.5), rgba(58, 4, 128, 0.5)) ,url('https://images.unsplash.com/photo-1534809027769-b00d750a6bac?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 1024px;
+    color: white;
+}
+
+#tickitz{
+    top: 35%;
+    left: 8%;
+    position: absolute;
+}
+
+#text1{
+    top: 60%;
+    left: 12%;
+    position: absolute;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+
+    letter-spacing: 0.003em;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#text2{
+    margin-top: 40%;
+    margin-bottom: 10%;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 58px;
+
+    letter-spacing: 0.003em;
+
+    color: #121212;
+}
+
+#text3{
+    position: absolute;
+    width: 396px;
+    height: 44px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.007em;
+
+    color: #AAAAAA;
+}
+
+#button4{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #F7F7FC;
+
+    padding: 2%;
+    margin-top: 5%;
+    background-color: #5F2EEA;
+    border-color: white;
+    width: 100%;
+}
+
+form{
+    width:60%;
+    margin-left: 10%;
+}
+
+.form-group{
+    margin-bottom: 5%;
+}
+
+.form-control{
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+#input{
+    margin-top: 25%;
+}
+
+#text4{
+    font-weight: bolder;
+    margin-top: 5%;
+    text-align: center;
+    width: 306px;
+    height: 19px;
+
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+
+    color: #696F79;
+}
+
+#button5, #button6{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    width: 30%;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    /* Placeholder */
+
+    color: #A0A3BD;
+    background-color: white;
+}
+
+#button5{
+    margin-left: 10%;
+}
